@@ -1,0 +1,31 @@
+HTML nodes at webpage and their default & unique properties
+==============================================================================
+WebObject		Tagname			Default property			unique property
+=============================================================================
+Editbox			<input>      	type="text"					ID,Name,aria-label
+						 		type="email"
+						 		type="password"
+========================================================================
+Link			<a> 			anchor tag					href & title
+=========================================================================
+dropdown		<select>		select tag contain			id,name,aria-label
+								list of <option> tags
+=========================================================================
+Listbox			ul[unorderlist]	ul contains list of <li>	id,name		
+					nodes
+=========================================================================
+button			<button>		type="submit"				id,name
+		    	<input>
+=========================================================================
+Radiobutton		<input>			type="radio"				id,name
+=========================================================================
+checkbox		<input>	 		type="checkbox"				id,name
+=========================================================================
+label			<label>			for							optional
+=========================================================================
+text			<span>			no-defaults					innertext
+				<strong>	
+				<div>
+==========================================================================
+images			<img>			src							src
+======================================================================
