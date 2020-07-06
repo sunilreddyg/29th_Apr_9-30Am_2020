@@ -3,8 +3,6 @@ package switch_commands.Window;
 import java.util.HashSet;
 import java.util.Set;
 
-import javax.net.ssl.HandshakeCompletedEvent;
-
 public class Set_Interface {
 
 	public static void main(String[] args) 
@@ -32,6 +30,13 @@ public class Set_Interface {
 				System.out.println("Found Required object");
 				break;
 			}
+		}
+		
+		
+		
+		for (String eachobj : set) 
+		{
+			System.out.println("=> "+eachobj);
 		}
 		
 		
