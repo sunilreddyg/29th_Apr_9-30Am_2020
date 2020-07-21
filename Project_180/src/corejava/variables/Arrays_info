@@ -1,0 +1,107 @@
+
+
+
+
+
+
+
+	FindElement:-->
+		It identify single object at webpage.
+
+			WebElement Single_Element=driver.findElement(By.id("Idvalue"));
+
+
+	FindElemetns:-->
+		It identify group objects at webapge.
+
+
+			List<WebElement> elements=driver.findElements(By.tagname("a"));
+
+
+
+
+
+		Variable:-->
+				Variable is a memory storage, It store memory temporarly and only
+				single value can store into variable..
+
+
+				String name="MQ-DSNR";
+
+				int a=100;
+
+				boolean flag=true;
+		
+				char group='A';
+
+				double price=109.20;
+
+				float flt=100.1f;
+
+
+		
+		Array:-->
+			 	Array store group of similar events.
+
+			
+				1. Static Array
+				2. Runtime Array
+
+				Note:--> Both arrays can declare single dimensional and Double dimensional.
+
+
+				1. Static Array:-->
+					Static array whose size can't be altered.While declaration of
+					static array programmer set fixed boundaries to store values.
+
+
+					int nums[]=new int[5];
+					nums[0]=100;
+					nums[1]=200;
+					nums[2]=300;
+					nums[3]=400;
+					nums[4]=500;
+
+					System.out.println(nums[2]);
+
+
+					String tools[]=new String[5];
+					tools[0]="IDE";
+					tools[1]="RC";
+					tools[2]="WD";
+					tools[3]="GRID";
+					tools[4]="Appium";
+
+					System.out.println(tools[2]);
+
+				2. Runtime Array:-->
+					While declaration of runtime array programmer need to assing
+					values at runtime.During this process developers no need to 
+					define or ogranize index values. Based on values it oraganized
+					it self.
+
+
+
+					int vals[]={100,200,300,400,500};
+					System.out.println(vals[3]);
+
+
+					String browsers[]={"firefox","chrome","ie","edge"};
+					System.out.println(browsers[2]);
+
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
