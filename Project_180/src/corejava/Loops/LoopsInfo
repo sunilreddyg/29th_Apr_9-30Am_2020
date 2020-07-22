@@ -1,0 +1,33 @@
+Loops:-->
+
+		Loops are facilitating to execute set of instrcution [Programming lines]
+		repeatedly, to evalucate any particular condition to get true.
+		
+		Advantages:-->
+		
+				1. Reduce line of code
+				2. Dynamic Iterations, To read multiple set of data
+
+
+		1. for
+		2. foreach
+		3. while
+		4. do-while
+		
+		
+1. For:-->
+			Any expected iteration to execute we follow for loop.
+			
+		Syntax:-->
+		
+					for(Variable Initiaion; Range ; Increment\decrement )
+					{
+							//Set of Statements to execute expected number of times.
+					}
+					
+					
+					
+					
+					
+					
+					
