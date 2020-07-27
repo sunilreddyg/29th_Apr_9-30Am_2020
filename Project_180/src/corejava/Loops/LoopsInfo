@@ -15,16 +15,74 @@ Loops:-->
 		4. do-while
 		
 		
-1. For:-->
-			Any expected iteration to execute we follow for loop.
+1.For-loop:-->
+		=> programer follow for loop, whenever need to iterate
+			any perticular condition to evaluate expected number 
+			of times.
 			
+		=> During for loop programmer should define start-iteration
+				and end-iteration value.
+				
+				
 		Syntax:-->
+				
+				for(Variable initiation ;  Condition  ; increment/decrement)
+				{
+					 //Set of programms to evaluate repeatedly should write
+					 //under curved braces.
+				}
+				
+				
+		Example:--> [Print numbers 1 to 10]
+			
+				for(int i=1,  i<=10, i++)
+				{
+					systems.out.println(i);
+				}		
+				
+				
+				=> For-loop accept initiation of variable only numerics.
+				=> For-loop accept iteration when condition return true,
+						And it follow iteration until condition return false.
+				=> We can also eject looping by writing  break;  keyword.
+===============================================================================>		
+Foreach:-->
+			Foreach loop usefull to iterate Array next values.
+			
+			for(Variable : Arrayname)
+			{
+				//Iteate based on array size.
+			}
+			
+=====================================================================
+while:-->
+	=> While is a condition based loop.
+	=> While accept loop when condition return true
+			and continue iteration until condition return false.
+	=> During while loop we should provide icrement/decrement
+			or Any condition to break loop othewise it get into
+			infinity loop.
+
+
+		Syntax:--> 
+				while(condition)
+		 		{
+		 
+				}
+			
+		=> While accept only boolean value.	
+			
+====================================================================
+Do-While:-->
+		Do while work similar as While loop,But only diff do-while
+		accept iteration once, even condition return false.
 		
-					for(Variable Initiaion; Range ; Increment\decrement )
-					{
-							//Set of Statements to execute expected number of times.
-					}
-					
+		
+		do
+		{
+		
+		}while(condition);			
+			
 					
 					
 					
