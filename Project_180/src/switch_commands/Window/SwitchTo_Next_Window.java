@@ -22,24 +22,26 @@ public class SwitchTo_Next_Window {
 	    
 	    
 	    WebElement Instagram_link=driver.findElement(By.xpath("//a[text()='Instagram']"));
-	    Instagram_link.click();
+	    Instagram_link.click(); //This link will open new window
 	    
-	   
-	  
-	    //Get all window ID's
-	    Set<String> All_Window_IDS=driver.getWindowHandles();
-	    //Apply foreach loop to iterator number of windows
-	    for (String EachWindow_ID : All_Window_IDS) 
+	    
+	   //Get all window id's
+	    Set<String> AllWindow_ID=driver.getWindowHandles();
+	    
+	    //Apply foreach to iterate number of windows
+	    for (String EachwindowID : AllWindow_ID) 
 	    {
-			if(!EachWindow_ID.equals(MainWindow_ID))
+			if(!MainWindow_ID.equals(EachwindowID))  //!--NOT
 			{
-				driver.switchTo().window(EachWindow_ID);
-				break;
+				driver.switchTo().window(EachwindowID);
+				break; //Break iteration and keep control at same window.
 			}
 		}
 	    
+	   
+	  
 	    
-	    
+	    System.out.println("Current Focused window ID is --> "+driver.getWindowHandle());
 	    System.out.println("Current focused window title is => "+driver.getTitle());
 	    
 	    
