@@ -1,0 +1,40 @@
+DataDriven Framework:--->
+
+		DataDriven is a test automation framework is used to drive testdata & testcase
+		from extenal data spread sheets like [Excel, Csv, Flatfile, Propertyfile ---etc]
+
+
+		Advantages:-->
+				=> We can avoid hardcode data with in scripting
+				=> We can carry multiple set of data for single testcase.
+				=> If changes required in data, Any non-technical person can modify it.
+
+
+Apache POI:--->
+	
+		An opensource library to read,write,designing at
+		Microsoft documents..
+
+Download Apache POI:-->
+
+	  URL:--->  https://archive.apache.org/dist/poi/release/bin/
+	  			Download  previous version --> 3.17
+	  			Download zip format file
+	  			unzip file to project libraries
+	  			configure all executable jar files to java-selenium-project.
+	  			
+	
+	  	Note:--> POI supports different version of documents, Each document
+	  			 to follow we have independent classes.
+	  	
+	  			=> Below classes support Mircosoft Excel 
+	  			HSSF-Workbook    [97-2003] -----> .xls
+	  			XSSF-Workbook    [2007 above]  ----> .xlsx
+	  				  						
+How to prepare test data file:-->
+
+Step1:--> Create TestData folder
+Step2:--> Create Inputdata workbook. 
+Step3:--> Open Workbook and prepare testdata at rows and cells
+Step4:--> Save workbook before and use it.
+=====================================================================================>
