@@ -2,7 +2,6 @@ package framework.Datadriven.Excel_POI;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -37,6 +36,31 @@ public class Excel_Read_Data_From_Multiple_rows {
 			
 		}
 		
+		
+		//Row and Cell Count Methods
+		int LRow_Num=sht.getLastRowNum();  //Return last row number where data contains.
+		int FRow_num=sht.getFirstRowNum(); //Return in which row data was started
+		
+		System.out.println("In Excel Data starts at  => "+FRow_num);
+		System.out.println("In Excel Data Ends at  => "+LRow_Num);
+		
+		//To get Cell count data,  first we need target requried row
+		int Lcell_num=sht.getRow(5).getLastCellNum();   //Return first cell data count
+		int Fcell_num=sht.getRow(5).getFirstCellNum();  //Return last cell data count.
+		
+		System.out.println("Start cell data number is => "+Fcell_num);
+		System.out.println("Last cell data number is => "+Lcell_num);
+		
+		
+		//Iterate cells using for loop
+		for (int i = Fcell_num; i < Lcell_num; i++) 
+		{
+			
+			String CellData=sht.getRow(6).getCell(i).getStringCellValue();
+			System.out.println("=> "+CellData);
+			
+		}
+
 		
 		
 		
