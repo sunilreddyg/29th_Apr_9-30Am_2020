@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+	
+	<parameter name="User_name" value="Sunil"></parameter>
+	<parameter name="User_email" value="sunil@gmail.com"></parameter>
+	<parameter name="User_mobile" value="9879778999"></parameter>
+	
+	
+	<test name="test1">
+		<classes>
+			<class name="framework.testng.With_Parameter.ClassA"></class>
+		</classes>
+	</test>
+</suite>
